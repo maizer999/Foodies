@@ -1,0 +1,1523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1188FE3C234E709B00702F2F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1188FE3B234E709B00702F2F /* GoogleService-Info.plist */; };
+		130A9936B1116674172A037B /* Pods_Foodomia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA364B46599A89BEC8F86A2 /* Pods_Foodomia.framework */; };
+		7AC7F75EC246878917A5EFA1 /* Pods_FoodomiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1D0A199FD82B812ADF7D68 /* Pods_FoodomiaTests.framework */; };
+		AE0125261F972AC4009E617F /* PaymentMethodPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0125251F972AC4009E617F /* PaymentMethodPresent.swift */; };
+		AE0125281F973002009E617F /* AddPaymentPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0125271F973002009E617F /* AddPaymentPresent.swift */; };
+		AE01252A1F973392009E617F /* SelectAddressPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0125291F973392009E617F /* SelectAddressPresent.swift */; };
+		AE01252C1F9735E5009E617F /* AddAddressPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01252B1F9735E5009E617F /* AddAddressPresent.swift */; };
+		AE01E41A1F7D294C00322EAC /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01E4191F7D294C00322EAC /* OrderHistoryViewController.swift */; };
+		AE01E41C1F7D2A9E00322EAC /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01E41B1F7D2A9E00322EAC /* HistoryTableViewCell.swift */; };
+		AE01E41E1F7D362D00322EAC /* AddAdressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01E41D1F7D362D00322EAC /* AddAdressViewController.swift */; };
+		AE0448FA20344D8600B6C5F1 /* HotelHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0448F920344D8600B6C5F1 /* HotelHistoryVC.swift */; };
+		AE064AD41FB5847C00C8B28B /* PagerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE064AD31FB5847C00C8B28B /* PagerTableViewCell.swift */; };
+		AE064AD81FB5954000C8B28B /* TrackOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE064AD71FB5954000C8B28B /* TrackOrderViewController.swift */; };
+		AE0694FD1F851C51007C3582 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0694FC1F851C51007C3582 /* ChatViewController.swift */; };
+		AE08EEFA1FE7BC4A004CB727 /* Mulk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE08EEF91FE7BC4A004CB727 /* Mulk.swift */; };
+		AE0B93752024711600FC3D8A /* RiderReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0B93742024711600FC3D8A /* RiderReviewViewController.swift */; };
+		AE0C9EB21FE5046500388E55 /* DealCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0C9EB11FE5046500388E55 /* DealCartViewController.swift */; };
+		AE0D411A206CCC4600C469E2 /* banff_no.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE0D4119206CCA5E00C469E2 /* banff_no.ttf */; };
+		AE149C151FC516B700CAFBAD /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE149C141FC516B700CAFBAD /* TrackTableViewCell.swift */; };
+		AE1752F320034B9B00A474D8 /* AddReasonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1752F220034B9B00A474D8 /* AddReasonViewController.swift */; };
+		AE17DD6720821FE500CA8BC5 /* HotelSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE17DD6620821FE500CA8BC5 /* HotelSide.swift */; };
+		AE17DD6920822C2D00CA8BC5 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE17DD6820822C2D00CA8BC5 /* MyCell.swift */; };
+		AE17FB5F1FC83933004F6587 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE17FB5E1FC83933004F6587 /* DealsViewController.swift */; };
+		AE18A6821FE6B7D3008A04F3 /* StoryboardiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE18A6811FE6B7D3008A04F3 /* StoryboardiPad.storyboard */; };
+		AE1BC2A51F84F14A00AF6933 /* AddPaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BC2A41F84F14A00AF6933 /* AddPaymentMethodViewController.swift */; };
+		AE1BC2A71F85099300AF6933 /* Jobs1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BC2A61F85099300AF6933 /* Jobs1ViewController.swift */; };
+		AE1BC2A91F850F8200AF6933 /* jobs2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1BC2A81F850F8200AF6933 /* jobs2ViewController.swift */; };
+		AE1F3FDD2097545B00C6C3A6 /* RiderSide.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1F3FDC2097545B00C6C3A6 /* RiderSide.swift */; };
+		AE222F48200CD7F9005421B0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE222F47200CD7F5005421B0 /* Constants.swift */; };
+		AE226F811F78E6F500AA10AF /* RestuarntsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE226F801F78E6F500AA10AF /* RestuarntsViewController.swift */; };
+		AE226F851F78F1D400AA10AF /* RTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE226F841F78F1D400AA10AF /* RTableViewCell.swift */; };
+		AE226F871F79058900AA10AF /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE226F861F79058900AA10AF /* OrdersViewController.swift */; };
+		AE27C0EF1F8642560050392C /* TrackLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE27C0EE1F8642560050392C /* TrackLocationViewController.swift */; };
+		AE2A447F1F90C62B00EAA8D4 /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2A447E1F90C62B00EAA8D4 /* CardDetail.swift */; };
+		AE3643832001388A007B4D76 /* PickSpecialityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3643822001388A007B4D76 /* PickSpecialityViewController.swift */; };
+		AE36BCBD1FF4D8A500DAD5A7 /* HotelRestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36BCBC1FF4D8A500DAD5A7 /* HotelRestaurantsVC.swift */; };
+		AE3C1D1F1F8616D800AF1AE9 /* YourLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3C1D1E1F8616D800AF1AE9 /* YourLocationViewController.swift */; };
+		AE440E591FBC57B60048693B /* OrderUpperCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE440E581FBC57B60048693B /* OrderUpperCellTableViewCell.swift */; };
+		AE4558BD1F96156300DB6662 /* Restuarant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4558BC1F96156300DB6662 /* Restuarant.swift */; };
+		AE46089F1F7B6DD300F8D1BB /* PaymentMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46089E1F7B6DD300F8D1BB /* PaymentMethodViewController.swift */; };
+		AE4608A11F7B70CF00F8D1BB /* PaymentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4608A01F7B70CF00F8D1BB /* PaymentTableCell.swift */; };
+		AE48505F1FA8812C00590BE6 /* riderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE48505E1FA8812C00590BE6 /* riderTableViewCell.swift */; };
+		AE4850611FA8814900590BE6 /* AcceptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4850601FA8814900590BE6 /* AcceptTableViewCell.swift */; };
+		AE4850631FA88A3000590BE6 /* Riderorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4850621FA88A3000590BE6 /* Riderorder.swift */; };
+		AE485C7F1F99E08000CC2AAA /* RiderProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE485C7E1F99E08000CC2AAA /* RiderProfileViewController.swift */; };
+		AE49F9C51FA83C53004A5F5F /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE49F9C41FA83C52004A5F5F /* Loader.swift */; };
+		AE4BF17B204E56BF005755A6 /* AddScheduleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BF17A204E56BF005755A6 /* AddScheduleTableCell.swift */; };
+		AE4BF17D204E9E70005755A6 /* GetMapLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4BF17C204E9E70005755A6 /* GetMapLocationViewController.swift */; };
+		AE4E6D7F1F73EBA300D0336C /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4E6D7E1F73EBA300D0336C /* ConfirmViewController.swift */; };
+		AE64E9091F95D49E007CA0D9 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64E9081F95D49E007CA0D9 /* ChangePasswordViewController.swift */; };
+		AE64E90B1F95E2BB007CA0D9 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE64E90A1F95E2BB007CA0D9 /* Address.swift */; };
+		AE70975C1FC4404B00EECFCE /* InsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE70975B1FC4404B00EECFCE /* InsViewCell.swift */; };
+		AE7818281FA9A84E000DA313 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7818261FA9A84D000DA313 /* MenuItem.swift */; };
+		AE78182B1FA9E93C000DA313 /* DeliverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78182A1FA9E93C000DA313 /* DeliverViewController.swift */; };
+		AE78182D1FA9E94E000DA313 /* CollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78182C1FA9E94E000DA313 /* CollectViewController.swift */; };
+		AE79B6951F72847500B64619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE79B6941F72847500B64619 /* AppDelegate.swift */; };
+		AE79B69A1F72847500B64619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE79B6981F72847500B64619 /* Main.storyboard */; };
+		AE79B69C1F72847500B64619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE79B69B1F72847500B64619 /* Assets.xcassets */; };
+		AE79B69F1F72847500B64619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE79B69D1F72847500B64619 /* LaunchScreen.storyboard */; };
+		AE79B6AA1F72847600B64619 /* FoodomiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE79B6A91F72847600B64619 /* FoodomiaTests.swift */; };
+		AE79B6B51F72847600B64619 /* FoodomiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE79B6B41F72847600B64619 /* FoodomiaUITests.swift */; };
+		AE79D1B51FA09987003D3D65 /* CardDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE79D1B41FA09987003D3D65 /* CardDetailTableViewCell.swift */; };
+		AE7BA0062098758F00861D0D /* TodayJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7BA0052098758F00861D0D /* TodayJobCell.swift */; };
+		AE7CC6011F739777005B6B20 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CC6001F739777005B6B20 /* SignUpViewController.swift */; };
+		AE7CC6031F73A5A7005B6B20 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CC6021F73A5A7005B6B20 /* VerificationViewController.swift */; };
+		AE7CC6051F73BF12005B6B20 /* PickCountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CC6041F73BF12005B6B20 /* PickCountryViewController.swift */; };
+		AE8447531F9E036C00FA74D9 /* 3rdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8447521F9E036C00FA74D9 /* 3rdTableViewCell.swift */; };
+		AE8B1B2A1FB18E7E00703AF0 /* RiderTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B1B291FB18E7E00703AF0 /* RiderTiming.swift */; };
+		AE8B1B2C1FB1A67200703AF0 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8B1B2B1FB1A67200703AF0 /* AddScheduleViewController.swift */; };
+		AE8C20FB1F9EFF4100AA86D8 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C20FA1F9EFF4100AA86D8 /* CartTableViewCell.swift */; };
+		AE8D993A1FEA2DC20009EC4E /* RestaurantDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D99391FEA2DC20009EC4E /* RestaurantDealViewController.swift */; };
+		AE8D993C1FEA33EB0009EC4E /* RestaurantDetailDealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D993B1FEA33EB0009EC4E /* RestaurantDetailDealViewController.swift */; };
+		AEA06BF81FB45A6500823A8A /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA06BF71FB45A6500823A8A /* Cart.swift */; };
+		AEA340BC1FAB29040047426E /* Cart1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA340BB1FAB29040047426E /* Cart1TableViewCell.swift */; };
+		AEA8B3481F7382580091D372 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8B3471F7382580091D372 /* LogInViewController.swift */; };
+		AEA8E95A1F7CB77E00D68E7D /* SelectAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8E9591F7CB77E00D68E7D /* SelectAddressViewController.swift */; };
+		AEA8E95C1F7CB7F400D68E7D /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8E95B1F7CB7F400D68E7D /* AddressTableViewCell.swift */; };
+		AEA8E95E1F7CB80600D68E7D /* Address1TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA8E95D1F7CB80600D68E7D /* Address1TableViewCell.swift */; };
+		AEB3B0DD1FA44C4E0040E52D /* CardDetail2TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3B0DC1FA44C4E0040E52D /* CardDetail2TableCell.swift */; };
+		AEB3F8171FB076BD00842129 /* RiderScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3F8161FB076BD00842129 /* RiderScheduleViewController.swift */; };
+		AEB3F8191FB08ABA00842129 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB3F8181FB08ABA00842129 /* ScheduleTableViewCell.swift */; };
+		AEB57B2B1F7BBCCB00B7CD80 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB57B2A1F7BBCCB00B7CD80 /* CountryTableViewCell.swift */; };
+		AEB8C4AC1F792031002300A4 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB8C4AB1F792031002300A4 /* OrderTableViewCell.swift */; };
+		AEB96E5C2062718D00A4CB04 /* TrackConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB96E5B2062718D00A4CB04 /* TrackConstant.swift */; };
+		AEBF17BF1F8B9A2E002512DF /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF17BC1F8B999A002512DF /* Bolts.framework */; };
+		AEBF17C01F8B9A2E002512DF /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF17BD1F8B999A002512DF /* FBSDKCoreKit.framework */; };
+		AEBF17C11F8B9A2E002512DF /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBF17BE1F8B999A002512DF /* FBSDKLoginKit.framework */; };
+		AEC5B66E1F7CF1AB00587A7F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5B66D1F7CF1AB00587A7F /* ForgotPasswordViewController.swift */; };
+		AEC5B6701F7D0C4D00587A7F /* DetailCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5B66F1F7D0C4D00587A7F /* DetailCartViewController.swift */; };
+		AECAB4881F7A26AB004F21CE /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAB4871F7A26AB004F21CE /* ReviewsViewController.swift */; };
+		AECAB48A1F7A275B004F21CE /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAB4891F7A275B004F21CE /* ReviewTableViewCell.swift */; };
+		AECAB48C1F7A38F6004F21CE /* AddCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECAB48B1F7A38F6004F21CE /* AddCartViewController.swift */; };
+		AECE30161FC2AB1D00B827E3 /* Sectionlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECE30151FC2AB1D00B827E3 /* Sectionlist.swift */; };
+		AED1D9F71FB0470A0097C1B2 /* JobTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED1D9F61FB0470A0097C1B2 /* JobTimeViewController.swift */; };
+		AEDAEC4E1F988D5200BA2C52 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEC4D1F988D5200BA2C52 /* Review.swift */; };
+		AEDAEC501F98BB0700BA2C52 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEC4F1F98BB0700BA2C52 /* Order.swift */; };
+		AEDAEC521F98BCB600BA2C52 /* OrderExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDAEC511F98BCB600BA2C52 /* OrderExtra.swift */; };
+		AEE2A37B1FD91B5600A2FC1A /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE2A37A1FD91B5600A2FC1A /* CheckInViewController.swift */; };
+		AEE87CCF1F7E1A5E00B91D5A /* MyAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE87CCE1F7E1A5E00B91D5A /* MyAccountViewController.swift */; };
+		AEE87CD11F7E1AC700B91D5A /* MyAccount1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE87CD01F7E1AC700B91D5A /* MyAccount1ViewController.swift */; };
+		AEE87CD31F7E1ADA00B91D5A /* EditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE87CD21F7E1ADA00B91D5A /* EditAccountViewController.swift */; };
+		AEEF5FC222395E1B003F2D77 /* Splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AEEF5FC122395E1B003F2D77 /* Splash.jpg */; };
+		AEF201DB1F9761A0003ABBAF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF201DA1F9761A0003ABBAF /* Menu.swift */; };
+		AEF2BFF21FD7FB2B008CE293 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2BFF11FD7FB2B008CE293 /* Deal.swift */; };
+		AEF2BFF61FD800E8008CE293 /* DealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2BFF51FD800E8008CE293 /* DealTableViewCell.swift */; };
+		AEF2BFF81FD811B1008CE293 /* DealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF2BFF71FD811B1008CE293 /* DealDetailViewController.swift */; };
+		AEF832F21FC9794C007F2705 /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF832F11FC9794B007F2705 /* FavViewController.swift */; };
+		AEF863AC1F8CF00E00880BF7 /* StaticData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF863AB1F8CF00E00880BF7 /* StaticData.swift */; };
+		AEFCC22F1F862B9900F6A2F4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFCC22E1F862B9900F6A2F4 /* CoreLocation.framework */; };
+		AEFDD6FD1FF4F50800ED1C2C /* HotelDetailRestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDD6FC1FF4F50800ED1C2C /* HotelDetailRestaurantsVC.swift */; };
+		AEFDD6FF1FF4FF4C00ED1C2C /* HotelProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFDD6FE1FF4FF4C00ED1C2C /* HotelProfileVC.swift */; };
+		AEFE18CE1FCEC34C00F7AFFF /* Account1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFE18CD1FCEC34C00F7AFFF /* Account1ViewController.swift */; };
+		E8AA0745157D863A10D63B39 /* Pods_FoodomiaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A84D1444CFF6B6226F639 /* Pods_FoodomiaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE79B6A61F72847600B64619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE79B6891F72847500B64619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE79B6901F72847500B64619;
+			remoteInfo = Foodomia;
+		};
+		AE79B6B11F72847600B64619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE79B6891F72847500B64619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE79B6901F72847500B64619;
+			remoteInfo = Foodomia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1188FE3B234E709B00702F2F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1188FE3D234E70CB00702F2F /* Foodomia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foodomia-Bridging-Header.h"; sourceTree = "<group>"; };
+		13F48C415E559B57AB95449A /* Pods-FoodomiaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodomiaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodomiaTests/Pods-FoodomiaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		585B9E88411479753FDDDF19 /* Pods-FoodomiaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodomiaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodomiaUITests/Pods-FoodomiaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DE4853B6C8BF6230B506435 /* Pods-FoodomiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodomiaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodomiaTests/Pods-FoodomiaTests.release.xcconfig"; sourceTree = "<group>"; };
+		85FE41F949D7B75D420DEAB5 /* Pods-Foodomia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodomia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Foodomia/Pods-Foodomia.release.xcconfig"; sourceTree = "<group>"; };
+		9C1D0A199FD82B812ADF7D68 /* Pods_FoodomiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodomiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA364B46599A89BEC8F86A2 /* Pods_Foodomia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foodomia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32BCF00C59623C4EA0198EF /* Pods-FoodomiaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodomiaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodomiaUITests/Pods-FoodomiaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A6F0EE1643B9973FD2B8459E /* Pods-Foodomia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foodomia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Foodomia/Pods-Foodomia.debug.xcconfig"; sourceTree = "<group>"; };
+		AE0125251F972AC4009E617F /* PaymentMethodPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodPresent.swift; sourceTree = "<group>"; };
+		AE0125271F973002009E617F /* AddPaymentPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentPresent.swift; sourceTree = "<group>"; };
+		AE0125291F973392009E617F /* SelectAddressPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAddressPresent.swift; sourceTree = "<group>"; };
+		AE01252B1F9735E5009E617F /* AddAddressPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAddressPresent.swift; sourceTree = "<group>"; };
+		AE01E4191F7D294C00322EAC /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		AE01E41B1F7D2A9E00322EAC /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		AE01E41D1F7D362D00322EAC /* AddAdressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAdressViewController.swift; sourceTree = "<group>"; };
+		AE0448F920344D8600B6C5F1 /* HotelHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelHistoryVC.swift; sourceTree = "<group>"; };
+		AE064AD31FB5847C00C8B28B /* PagerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerTableViewCell.swift; sourceTree = "<group>"; };
+		AE064AD71FB5954000C8B28B /* TrackOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackOrderViewController.swift; sourceTree = "<group>"; };
+		AE0694FC1F851C51007C3582 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		AE08EEF91FE7BC4A004CB727 /* Mulk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mulk.swift; sourceTree = "<group>"; };
+		AE0B93742024711600FC3D8A /* RiderReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderReviewViewController.swift; sourceTree = "<group>"; };
+		AE0C9EB11FE5046500388E55 /* DealCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCartViewController.swift; sourceTree = "<group>"; };
+		AE0D4119206CCA5E00C469E2 /* banff_no.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = banff_no.ttf; sourceTree = "<group>"; };
+		AE149C141FC516B700CAFBAD /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		AE1752F220034B9B00A474D8 /* AddReasonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReasonViewController.swift; sourceTree = "<group>"; };
+		AE17DD6620821FE500CA8BC5 /* HotelSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelSide.swift; sourceTree = "<group>"; };
+		AE17DD6820822C2D00CA8BC5 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		AE17FB5E1FC83933004F6587 /* DealsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		AE18A6811FE6B7D3008A04F3 /* StoryboardiPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryboardiPad.storyboard; sourceTree = "<group>"; };
+		AE1BC2A11F84ED2500AF6933 /* Foodomia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foodomia-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		AE1BC2A41F84F14A00AF6933 /* AddPaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodViewController.swift; sourceTree = "<group>"; };
+		AE1BC2A61F85099300AF6933 /* Jobs1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs1ViewController.swift; sourceTree = "<group>"; };
+		AE1BC2A81F850F8200AF6933 /* jobs2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jobs2ViewController.swift; sourceTree = "<group>"; };
+		AE1F3FDC2097545B00C6C3A6 /* RiderSide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderSide.swift; sourceTree = "<group>"; };
+		AE222F47200CD7F5005421B0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = SOURCE_ROOT; };
+		AE226F801F78E6F500AA10AF /* RestuarntsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestuarntsViewController.swift; sourceTree = "<group>"; };
+		AE226F841F78F1D400AA10AF /* RTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTableViewCell.swift; sourceTree = "<group>"; };
+		AE226F861F79058900AA10AF /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		AE27C0EE1F8642560050392C /* TrackLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLocationViewController.swift; sourceTree = "<group>"; };
+		AE2A447E1F90C62B00EAA8D4 /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
+		AE3643822001388A007B4D76 /* PickSpecialityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickSpecialityViewController.swift; sourceTree = "<group>"; };
+		AE36BCBC1FF4D8A500DAD5A7 /* HotelRestaurantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRestaurantsVC.swift; sourceTree = "<group>"; };
+		AE3C1D1E1F8616D800AF1AE9 /* YourLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourLocationViewController.swift; sourceTree = "<group>"; };
+		AE440E581FBC57B60048693B /* OrderUpperCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderUpperCellTableViewCell.swift; sourceTree = "<group>"; };
+		AE4558BC1F96156300DB6662 /* Restuarant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restuarant.swift; sourceTree = "<group>"; };
+		AE46089E1F7B6DD300F8D1BB /* PaymentMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodViewController.swift; sourceTree = "<group>"; };
+		AE4608A01F7B70CF00F8D1BB /* PaymentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableCell.swift; sourceTree = "<group>"; };
+		AE48505E1FA8812C00590BE6 /* riderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = riderTableViewCell.swift; sourceTree = "<group>"; };
+		AE4850601FA8814900590BE6 /* AcceptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptTableViewCell.swift; sourceTree = "<group>"; };
+		AE4850621FA88A3000590BE6 /* Riderorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riderorder.swift; sourceTree = "<group>"; };
+		AE485C7E1F99E08000CC2AAA /* RiderProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderProfileViewController.swift; sourceTree = "<group>"; };
+		AE49F9C41FA83C52004A5F5F /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = SOURCE_ROOT; };
+		AE4BF17A204E56BF005755A6 /* AddScheduleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleTableCell.swift; sourceTree = "<group>"; };
+		AE4BF17C204E9E70005755A6 /* GetMapLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMapLocationViewController.swift; sourceTree = "<group>"; };
+		AE4E6D7E1F73EBA300D0336C /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		AE64E9081F95D49E007CA0D9 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		AE64E90A1F95E2BB007CA0D9 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		AE70975B1FC4404B00EECFCE /* InsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsViewCell.swift; sourceTree = "<group>"; };
+		AE7818261FA9A84D000DA313 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = SOURCE_ROOT; };
+		AE78182A1FA9E93C000DA313 /* DeliverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliverViewController.swift; sourceTree = "<group>"; };
+		AE78182C1FA9E94E000DA313 /* CollectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectViewController.swift; sourceTree = "<group>"; };
+		AE79B6911F72847500B64619 /* Foodomia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodomia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE79B6941F72847500B64619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE79B6991F72847500B64619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE79B69B1F72847500B64619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE79B69E1F72847500B64619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE79B6A01F72847500B64619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE79B6A51F72847600B64619 /* FoodomiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodomiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE79B6A91F72847600B64619 /* FoodomiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodomiaTests.swift; sourceTree = "<group>"; };
+		AE79B6AB1F72847600B64619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE79B6B01F72847600B64619 /* FoodomiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodomiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE79B6B41F72847600B64619 /* FoodomiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodomiaUITests.swift; sourceTree = "<group>"; };
+		AE79B6B61F72847600B64619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE79D1B41FA09987003D3D65 /* CardDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailTableViewCell.swift; sourceTree = "<group>"; };
+		AE7BA0052098758F00861D0D /* TodayJobCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayJobCell.swift; sourceTree = "<group>"; };
+		AE7CC6001F739777005B6B20 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AE7CC6021F73A5A7005B6B20 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		AE7CC6041F73BF12005B6B20 /* PickCountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickCountryViewController.swift; sourceTree = "<group>"; };
+		AE8447521F9E036C00FA74D9 /* 3rdTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3rdTableViewCell.swift; sourceTree = "<group>"; };
+		AE8B1B291FB18E7E00703AF0 /* RiderTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderTiming.swift; sourceTree = "<group>"; };
+		AE8B1B2B1FB1A67200703AF0 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		AE8C20FA1F9EFF4100AA86D8 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		AE8D99391FEA2DC20009EC4E /* RestaurantDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDealViewController.swift; sourceTree = "<group>"; };
+		AE8D993B1FEA33EB0009EC4E /* RestaurantDetailDealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailDealViewController.swift; sourceTree = "<group>"; };
+		AEA06BF71FB45A6500823A8A /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		AEA340BB1FAB29040047426E /* Cart1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart1TableViewCell.swift; sourceTree = "<group>"; };
+		AEA8B3471F7382580091D372 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AEA8E9591F7CB77E00D68E7D /* SelectAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAddressViewController.swift; sourceTree = "<group>"; };
+		AEA8E95B1F7CB7F400D68E7D /* AddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		AEA8E95D1F7CB80600D68E7D /* Address1TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address1TableViewCell.swift; sourceTree = "<group>"; };
+		AEB3B0DC1FA44C4E0040E52D /* CardDetail2TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail2TableCell.swift; sourceTree = "<group>"; };
+		AEB3F8161FB076BD00842129 /* RiderScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiderScheduleViewController.swift; sourceTree = "<group>"; };
+		AEB3F8181FB08ABA00842129 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		AEB57B2A1F7BBCCB00B7CD80 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		AEB8C4AB1F792031002300A4 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		AEB96E5B2062718D00A4CB04 /* TrackConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackConstant.swift; sourceTree = "<group>"; };
+		AEBF17BC1F8B999A002512DF /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		AEBF17BD1F8B999A002512DF /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		AEBF17BE1F8B999A002512DF /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		AEC5B66D1F7CF1AB00587A7F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		AEC5B66F1F7D0C4D00587A7F /* DetailCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCartViewController.swift; sourceTree = "<group>"; };
+		AECAB4871F7A26AB004F21CE /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		AECAB4891F7A275B004F21CE /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		AECAB48B1F7A38F6004F21CE /* AddCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCartViewController.swift; sourceTree = "<group>"; };
+		AECE30151FC2AB1D00B827E3 /* Sectionlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sectionlist.swift; sourceTree = "<group>"; };
+		AED1D9F61FB0470A0097C1B2 /* JobTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTimeViewController.swift; sourceTree = "<group>"; };
+		AEDAEC4D1F988D5200BA2C52 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		AEDAEC4F1F98BB0700BA2C52 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		AEDAEC511F98BCB600BA2C52 /* OrderExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderExtra.swift; sourceTree = "<group>"; };
+		AEE2A37A1FD91B5600A2FC1A /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		AEE87CCE1F7E1A5E00B91D5A /* MyAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountViewController.swift; sourceTree = "<group>"; };
+		AEE87CD01F7E1AC700B91D5A /* MyAccount1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccount1ViewController.swift; sourceTree = "<group>"; };
+		AEE87CD21F7E1ADA00B91D5A /* EditAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountViewController.swift; sourceTree = "<group>"; };
+		AEEF5FC122395E1B003F2D77 /* Splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Splash.jpg; sourceTree = "<group>"; };
+		AEF201DA1F9761A0003ABBAF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AEF2BFF11FD7FB2B008CE293 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+		AEF2BFF51FD800E8008CE293 /* DealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealTableViewCell.swift; sourceTree = "<group>"; };
+		AEF2BFF71FD811B1008CE293 /* DealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailViewController.swift; sourceTree = "<group>"; };
+		AEF832F11FC9794B007F2705 /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		AEF863AB1F8CF00E00880BF7 /* StaticData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticData.swift; sourceTree = "<group>"; };
+		AEFCC22E1F862B9900F6A2F4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AEFDD6FC1FF4F50800ED1C2C /* HotelDetailRestaurantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailRestaurantsVC.swift; sourceTree = "<group>"; };
+		AEFDD6FE1FF4FF4C00ED1C2C /* HotelProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelProfileVC.swift; sourceTree = "<group>"; };
+		AEFE18CC1FCE966500F7AFFF /* Foodomia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Foodomia.entitlements; sourceTree = "<group>"; };
+		AEFE18CD1FCEC34C00F7AFFF /* Account1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account1ViewController.swift; sourceTree = "<group>"; };
+		E32A84D1444CFF6B6226F639 /* Pods_FoodomiaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodomiaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE79B68E1F72847500B64619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFCC22F1F862B9900F6A2F4 /* CoreLocation.framework in Frameworks */,
+				130A9936B1116674172A037B /* Pods_Foodomia.framework in Frameworks */,
+				AEBF17BF1F8B9A2E002512DF /* Bolts.framework in Frameworks */,
+				AEBF17C01F8B9A2E002512DF /* FBSDKCoreKit.framework in Frameworks */,
+				AEBF17C11F8B9A2E002512DF /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79B6A21F72847600B64619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC7F75EC246878917A5EFA1 /* Pods_FoodomiaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79B6AD1F72847600B64619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8AA0745157D863A10D63B39 /* Pods_FoodomiaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAF791FB2FA1B0E6CE5C6CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0EE1643B9973FD2B8459E /* Pods-Foodomia.debug.xcconfig */,
+				85FE41F949D7B75D420DEAB5 /* Pods-Foodomia.release.xcconfig */,
+				13F48C415E559B57AB95449A /* Pods-FoodomiaTests.debug.xcconfig */,
+				6DE4853B6C8BF6230B506435 /* Pods-FoodomiaTests.release.xcconfig */,
+				585B9E88411479753FDDDF19 /* Pods-FoodomiaUITests.debug.xcconfig */,
+				A32BCF00C59623C4EA0198EF /* Pods-FoodomiaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE0C62022032A14F00C61C77 /* RiderReviewVC */ = {
+			isa = PBXGroup;
+			children = (
+				AE0B93742024711600FC3D8A /* RiderReviewViewController.swift */,
+			);
+			path = RiderReviewVC;
+			sourceTree = "<group>";
+		};
+		AE226F881F79059100AA10AF /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				AED46BBF1FA856880049FA7B /* LoginViewController */,
+				AED46BC01FA856A00049FA7B /* SignUpViewController */,
+				AED46BC11FA856BC0049FA7B /* VerificationViewController */,
+				AED46BC21FA856CF0049FA7B /* ConfirmViewController */,
+				AED46BC31FA856E00049FA7B /* RestuarantsViewController */,
+				AED46BC41FA856F50049FA7B /* OrdersViewController */,
+				AED46BC51FA857080049FA7B /* ReviewsViewController */,
+				AED46BC91FA857B10049FA7B /* AddCartViewController */,
+				AED46BC61FA857170049FA7B /* PaymentMethodViewController */,
+				AED46BC71FA8572B0049FA7B /* SelectAddressViewController */,
+				AED46BC81FA8573F0049FA7B /* ForgotPasswordViewController */,
+				AED46BCB1FA858110049FA7B /* DetailCardViewController */,
+				AED46BCC1FA8582A0049FA7B /* OrderHistoryViewController */,
+				AED46BCD1FA8583E0049FA7B /* AddAddressViewController */,
+				AED46BCE1FA8585B0049FA7B /* MyAccountViewController */,
+				AED46BCF1FA858790049FA7B /* EditAccountViewController */,
+				AED46BD01FA858940049FA7B /* AddPaymentViewController */,
+				AED46BD11FA858BA0049FA7B /* PickCountryViewController */,
+				AED46BD21FA858D70049FA7B /* JobViewController */,
+				AE8B1B2D1FB1B52B00703AF0 /* ScheduleViewController */,
+				AE78182E1FA9E957000DA313 /* CollectViewController */,
+				AE78182F1FA9E96E000DA313 /* DeliverViewController */,
+				AED46BD31FA858EC0049FA7B /* ChatViewContoller */,
+				AED46BD51FA8591B0049FA7B /* RiderProfileViewController */,
+				AED46BD41FA858FD0049FA7B /* LocationViewController */,
+				AED00EEC1FB6BDC70081CE61 /* TrackOrderViewController */,
+				AE4306971FDEAC8B0059783F /* Account1ViewController */,
+				AE4306961FDEAC6C0059783F /* CheckInViewController */,
+				AE4306951FDEAC580059783F /* FavouriteViewController */,
+				AE4306941FDEAC2E0059783F /* DealViewController */,
+				AED46BCA1FA857FD0049FA7B /* ChangePasswordViewController */,
+				AE2987831FF604AA00C284BE /* HotelViewControllers */,
+				AE0C62022032A14F00C61C77 /* RiderReviewVC */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		AE226F891F7905CA00AA10AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE1F3FDC2097545B00C6C3A6 /* RiderSide.swift */,
+				AE17DD6620821FE500CA8BC5 /* HotelSide.swift */,
+				AEB96E5B2062718D00A4CB04 /* TrackConstant.swift */,
+				AE222F47200CD7F5005421B0 /* Constants.swift */,
+				AE08EEF91FE7BC4A004CB727 /* Mulk.swift */,
+				AEF2BFF11FD7FB2B008CE293 /* Deal.swift */,
+				AECE30151FC2AB1D00B827E3 /* Sectionlist.swift */,
+				AEA06BF71FB45A6500823A8A /* Cart.swift */,
+				AE8B1B291FB18E7E00703AF0 /* RiderTiming.swift */,
+				AE4850621FA88A3000590BE6 /* Riderorder.swift */,
+				AE49F9C41FA83C52004A5F5F /* Loader.swift */,
+				AEDAEC511F98BCB600BA2C52 /* OrderExtra.swift */,
+				AEDAEC4F1F98BB0700BA2C52 /* Order.swift */,
+				AEDAEC4D1F988D5200BA2C52 /* Review.swift */,
+				AEF201DA1F9761A0003ABBAF /* Menu.swift */,
+				AE7818261FA9A84D000DA313 /* MenuItem.swift */,
+				AE2A447E1F90C62B00EAA8D4 /* CardDetail.swift */,
+				AE64E90A1F95E2BB007CA0D9 /* Address.swift */,
+				AE4558BC1F96156300DB6662 /* Restuarant.swift */,
+				AE1BC2A11F84ED2500AF6933 /* Foodomia-Bridging-Header.h */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE226F8A1F7905DC00AA10AF /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AE7BA0052098758F00861D0D /* TodayJobCell.swift */,
+				AE17DD6820822C2D00CA8BC5 /* MyCell.swift */,
+				AEF2BFF51FD800E8008CE293 /* DealTableViewCell.swift */,
+				AE149C141FC516B700CAFBAD /* TrackTableViewCell.swift */,
+				AE70975B1FC4404B00EECFCE /* InsViewCell.swift */,
+				AE440E581FBC57B60048693B /* OrderUpperCellTableViewCell.swift */,
+				AE064AD31FB5847C00C8B28B /* PagerTableViewCell.swift */,
+				AEB3F8181FB08ABA00842129 /* ScheduleTableViewCell.swift */,
+				AE4BF17A204E56BF005755A6 /* AddScheduleTableCell.swift */,
+				AE4850601FA8814900590BE6 /* AcceptTableViewCell.swift */,
+				AE48505E1FA8812C00590BE6 /* riderTableViewCell.swift */,
+				AEB3B0DC1FA44C4E0040E52D /* CardDetail2TableCell.swift */,
+				AE79D1B41FA09987003D3D65 /* CardDetailTableViewCell.swift */,
+				AEA340BB1FAB29040047426E /* Cart1TableViewCell.swift */,
+				AE8C20FA1F9EFF4100AA86D8 /* CartTableViewCell.swift */,
+				AE8447521F9E036C00FA74D9 /* 3rdTableViewCell.swift */,
+				AE01E41B1F7D2A9E00322EAC /* HistoryTableViewCell.swift */,
+				AEA8E95D1F7CB80600D68E7D /* Address1TableViewCell.swift */,
+				AEA8E95B1F7CB7F400D68E7D /* AddressTableViewCell.swift */,
+				AEB57B2A1F7BBCCB00B7CD80 /* CountryTableViewCell.swift */,
+				AE4608A01F7B70CF00F8D1BB /* PaymentTableCell.swift */,
+				AECAB4891F7A275B004F21CE /* ReviewTableViewCell.swift */,
+				AEB8C4AB1F792031002300A4 /* OrderTableViewCell.swift */,
+				AE226F841F78F1D400AA10AF /* RTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		AE226F8B1F7905F700AA10AF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AE18A6811FE6B7D3008A04F3 /* StoryboardiPad.storyboard */,
+				AE79B6981F72847500B64619 /* Main.storyboard */,
+				AE79B69D1F72847500B64619 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AE2987831FF604AA00C284BE /* HotelViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE1752F220034B9B00A474D8 /* AddReasonViewController.swift */,
+				AEFDD6FE1FF4FF4C00ED1C2C /* HotelProfileVC.swift */,
+				AEFDD6FC1FF4F50800ED1C2C /* HotelDetailRestaurantsVC.swift */,
+				AE0448F920344D8600B6C5F1 /* HotelHistoryVC.swift */,
+				AE36BCBC1FF4D8A500DAD5A7 /* HotelRestaurantsVC.swift */,
+			);
+			path = HotelViewControllers;
+			sourceTree = "<group>";
+		};
+		AE4306941FDEAC2E0059783F /* DealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2BFF71FD811B1008CE293 /* DealDetailViewController.swift */,
+				AE17FB5E1FC83933004F6587 /* DealsViewController.swift */,
+				AE8D993B1FEA33EB0009EC4E /* RestaurantDetailDealViewController.swift */,
+				AE8D99391FEA2DC20009EC4E /* RestaurantDealViewController.swift */,
+				AE0C9EB11FE5046500388E55 /* DealCartViewController.swift */,
+			);
+			path = DealViewController;
+			sourceTree = "<group>";
+		};
+		AE4306951FDEAC580059783F /* FavouriteViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEF832F11FC9794B007F2705 /* FavViewController.swift */,
+			);
+			path = FavouriteViewController;
+			sourceTree = "<group>";
+		};
+		AE4306961FDEAC6C0059783F /* CheckInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2A37A1FD91B5600A2FC1A /* CheckInViewController.swift */,
+			);
+			path = CheckInViewController;
+			sourceTree = "<group>";
+		};
+		AE4306971FDEAC8B0059783F /* Account1ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE18CD1FCEC34C00F7AFFF /* Account1ViewController.swift */,
+			);
+			path = Account1ViewController;
+			sourceTree = "<group>";
+		};
+		AE78182E1FA9E957000DA313 /* CollectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE78182C1FA9E94E000DA313 /* CollectViewController.swift */,
+			);
+			path = CollectViewController;
+			sourceTree = "<group>";
+		};
+		AE78182F1FA9E96E000DA313 /* DeliverViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE78182A1FA9E93C000DA313 /* DeliverViewController.swift */,
+			);
+			path = DeliverViewController;
+			sourceTree = "<group>";
+		};
+		AE79B6881F72847500B64619 = {
+			isa = PBXGroup;
+			children = (
+				1188FE3D234E70CB00702F2F /* Foodomia-Bridging-Header.h */,
+				1188FE3B234E709B00702F2F /* GoogleService-Info.plist */,
+				AEEF5FC122395E1B003F2D77 /* Splash.jpg */,
+				AE79B6931F72847500B64619 /* Foodomia */,
+				AE79B6A81F72847600B64619 /* FoodomiaTests */,
+				AE79B6B31F72847600B64619 /* FoodomiaUITests */,
+				AE79B6921F72847500B64619 /* Products */,
+				0AAF791FB2FA1B0E6CE5C6CA /* Pods */,
+				C0520A6063630F721B879A0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE79B6921F72847500B64619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE79B6911F72847500B64619 /* Foodomia.app */,
+				AE79B6A51F72847600B64619 /* FoodomiaTests.xctest */,
+				AE79B6B01F72847600B64619 /* FoodomiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE79B6931F72847500B64619 /* Foodomia */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE18CC1FCE966500F7AFFF /* Foodomia.entitlements */,
+				AED46BD71FA859960049FA7B /* AppDelegate */,
+				AED46BD61FA859740049FA7B /* StaticClasses */,
+				AE226F8A1F7905DC00AA10AF /* TableViewCells */,
+				AE226F891F7905CA00AA10AF /* Models */,
+				AE226F881F79059100AA10AF /* VCs */,
+				AE226F8B1F7905F700AA10AF /* Storyboard */,
+				AE79B69B1F72847500B64619 /* Assets.xcassets */,
+				AE0D4119206CCA5E00C469E2 /* banff_no.ttf */,
+				AE79B6A01F72847500B64619 /* Info.plist */,
+			);
+			path = Foodomia;
+			sourceTree = "<group>";
+		};
+		AE79B6A81F72847600B64619 /* FoodomiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE79B6A91F72847600B64619 /* FoodomiaTests.swift */,
+				AE79B6AB1F72847600B64619 /* Info.plist */,
+			);
+			path = FoodomiaTests;
+			sourceTree = "<group>";
+		};
+		AE79B6B31F72847600B64619 /* FoodomiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE79B6B41F72847600B64619 /* FoodomiaUITests.swift */,
+				AE79B6B61F72847600B64619 /* Info.plist */,
+			);
+			path = FoodomiaUITests;
+			sourceTree = "<group>";
+		};
+		AE8B1B2D1FB1B52B00703AF0 /* ScheduleViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE8B1B2B1FB1A67200703AF0 /* AddScheduleViewController.swift */,
+				AEB3F8161FB076BD00842129 /* RiderScheduleViewController.swift */,
+			);
+			path = ScheduleViewController;
+			sourceTree = "<group>";
+		};
+		AED00EEC1FB6BDC70081CE61 /* TrackOrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE064AD71FB5954000C8B28B /* TrackOrderViewController.swift */,
+			);
+			path = TrackOrderViewController;
+			sourceTree = "<group>";
+		};
+		AED46BBF1FA856880049FA7B /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8B3471F7382580091D372 /* LogInViewController.swift */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC01FA856A00049FA7B /* SignUpViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE7CC6001F739777005B6B20 /* SignUpViewController.swift */,
+			);
+			path = SignUpViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC11FA856BC0049FA7B /* VerificationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE7CC6021F73A5A7005B6B20 /* VerificationViewController.swift */,
+			);
+			path = VerificationViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC21FA856CF0049FA7B /* ConfirmViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE4E6D7E1F73EBA300D0336C /* ConfirmViewController.swift */,
+			);
+			path = ConfirmViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC31FA856E00049FA7B /* RestuarantsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE226F801F78E6F500AA10AF /* RestuarntsViewController.swift */,
+				AE3643822001388A007B4D76 /* PickSpecialityViewController.swift */,
+			);
+			path = RestuarantsViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC41FA856F50049FA7B /* OrdersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE226F861F79058900AA10AF /* OrdersViewController.swift */,
+			);
+			path = OrdersViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC51FA857080049FA7B /* ReviewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AECAB4871F7A26AB004F21CE /* ReviewsViewController.swift */,
+			);
+			path = ReviewsViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC61FA857170049FA7B /* PaymentMethodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE0125251F972AC4009E617F /* PaymentMethodPresent.swift */,
+				AE46089E1F7B6DD300F8D1BB /* PaymentMethodViewController.swift */,
+			);
+			path = PaymentMethodViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC71FA8572B0049FA7B /* SelectAddressViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEA8E9591F7CB77E00D68E7D /* SelectAddressViewController.swift */,
+				AE0125291F973392009E617F /* SelectAddressPresent.swift */,
+			);
+			path = SelectAddressViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC81FA8573F0049FA7B /* ForgotPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5B66D1F7CF1AB00587A7F /* ForgotPasswordViewController.swift */,
+			);
+			path = ForgotPasswordViewController;
+			sourceTree = "<group>";
+		};
+		AED46BC91FA857B10049FA7B /* AddCartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AECAB48B1F7A38F6004F21CE /* AddCartViewController.swift */,
+			);
+			path = AddCartViewController;
+			sourceTree = "<group>";
+		};
+		AED46BCA1FA857FD0049FA7B /* ChangePasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE64E9081F95D49E007CA0D9 /* ChangePasswordViewController.swift */,
+			);
+			path = ChangePasswordViewController;
+			sourceTree = "<group>";
+		};
+		AED46BCB1FA858110049FA7B /* DetailCardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEC5B66F1F7D0C4D00587A7F /* DetailCartViewController.swift */,
+			);
+			path = DetailCardViewController;
+			sourceTree = "<group>";
+		};
+		AED46BCC1FA8582A0049FA7B /* OrderHistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE01E4191F7D294C00322EAC /* OrderHistoryViewController.swift */,
+			);
+			path = OrderHistoryViewController;
+			sourceTree = "<group>";
+		};
+		AED46BCD1FA8583E0049FA7B /* AddAddressViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE01E41D1F7D362D00322EAC /* AddAdressViewController.swift */,
+				AE01252B1F9735E5009E617F /* AddAddressPresent.swift */,
+			);
+			path = AddAddressViewController;
+			sourceTree = "<group>";
+		};
+		AED46BCE1FA8585B0049FA7B /* MyAccountViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEE87CCE1F7E1A5E00B91D5A /* MyAccountViewController.swift */,
+				AEE87CD01F7E1AC700B91D5A /* MyAccount1ViewController.swift */,
+			);
+			path = MyAccountViewController;
+			sourceTree = "<group>";
+		};
+		AED46BCF1FA858790049FA7B /* EditAccountViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEE87CD21F7E1ADA00B91D5A /* EditAccountViewController.swift */,
+			);
+			path = EditAccountViewController;
+			sourceTree = "<group>";
+		};
+		AED46BD01FA858940049FA7B /* AddPaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BC2A41F84F14A00AF6933 /* AddPaymentMethodViewController.swift */,
+				AE0125271F973002009E617F /* AddPaymentPresent.swift */,
+			);
+			path = AddPaymentViewController;
+			sourceTree = "<group>";
+		};
+		AED46BD11FA858BA0049FA7B /* PickCountryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE7CC6041F73BF12005B6B20 /* PickCountryViewController.swift */,
+			);
+			path = PickCountryViewController;
+			sourceTree = "<group>";
+		};
+		AED46BD21FA858D70049FA7B /* JobViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE1BC2A81F850F8200AF6933 /* jobs2ViewController.swift */,
+				AED1D9F61FB0470A0097C1B2 /* JobTimeViewController.swift */,
+				AE1BC2A61F85099300AF6933 /* Jobs1ViewController.swift */,
+			);
+			path = JobViewController;
+			sourceTree = "<group>";
+		};
+		AED46BD31FA858EC0049FA7B /* ChatViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				AE0694FC1F851C51007C3582 /* ChatViewController.swift */,
+			);
+			path = ChatViewContoller;
+			sourceTree = "<group>";
+		};
+		AED46BD41FA858FD0049FA7B /* LocationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE4BF17C204E9E70005755A6 /* GetMapLocationViewController.swift */,
+				AE3C1D1E1F8616D800AF1AE9 /* YourLocationViewController.swift */,
+				AE27C0EE1F8642560050392C /* TrackLocationViewController.swift */,
+			);
+			path = LocationViewController;
+			sourceTree = "<group>";
+		};
+		AED46BD51FA8591B0049FA7B /* RiderProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AE485C7E1F99E08000CC2AAA /* RiderProfileViewController.swift */,
+			);
+			path = RiderProfileViewController;
+			sourceTree = "<group>";
+		};
+		AED46BD61FA859740049FA7B /* StaticClasses */ = {
+			isa = PBXGroup;
+			children = (
+				AEF863AB1F8CF00E00880BF7 /* StaticData.swift */,
+			);
+			path = StaticClasses;
+			sourceTree = "<group>";
+		};
+		AED46BD71FA859960049FA7B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AE79B6941F72847500B64619 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C0520A6063630F721B879A0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEBF17BC1F8B999A002512DF /* Bolts.framework */,
+				AEBF17BD1F8B999A002512DF /* FBSDKCoreKit.framework */,
+				AEBF17BE1F8B999A002512DF /* FBSDKLoginKit.framework */,
+				AEFCC22E1F862B9900F6A2F4 /* CoreLocation.framework */,
+				9DA364B46599A89BEC8F86A2 /* Pods_Foodomia.framework */,
+				9C1D0A199FD82B812ADF7D68 /* Pods_FoodomiaTests.framework */,
+				E32A84D1444CFF6B6226F639 /* Pods_FoodomiaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE79B6901F72847500B64619 /* Foodomia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE79B6B91F72847600B64619 /* Build configuration list for PBXNativeTarget "Foodomia" */;
+			buildPhases = (
+				1285E4CE5B6CFB53FF4BCFB2 /* [CP] Check Pods Manifest.lock */,
+				AE79B68D1F72847500B64619 /* Sources */,
+				AE79B68E1F72847500B64619 /* Frameworks */,
+				AE79B68F1F72847500B64619 /* Resources */,
+				22CFBFB29DBE96A80001830A /* [CP] Embed Pods Frameworks */,
+				AD4A5DC6970C21B98AE74C3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foodomia;
+			productName = Foodomia;
+			productReference = AE79B6911F72847500B64619 /* Foodomia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE79B6A41F72847600B64619 /* FoodomiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE79B6BC1F72847600B64619 /* Build configuration list for PBXNativeTarget "FoodomiaTests" */;
+			buildPhases = (
+				376AEE45A162157F9FE2AB9D /* [CP] Check Pods Manifest.lock */,
+				AE79B6A11F72847600B64619 /* Sources */,
+				AE79B6A21F72847600B64619 /* Frameworks */,
+				AE79B6A31F72847600B64619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE79B6A71F72847600B64619 /* PBXTargetDependency */,
+			);
+			name = FoodomiaTests;
+			productName = FoodomiaTests;
+			productReference = AE79B6A51F72847600B64619 /* FoodomiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE79B6AF1F72847600B64619 /* FoodomiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE79B6BF1F72847600B64619 /* Build configuration list for PBXNativeTarget "FoodomiaUITests" */;
+			buildPhases = (
+				AE57FDED6D28002F2918AAE6 /* [CP] Check Pods Manifest.lock */,
+				AE79B6AC1F72847600B64619 /* Sources */,
+				AE79B6AD1F72847600B64619 /* Frameworks */,
+				AE79B6AE1F72847600B64619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE79B6B21F72847600B64619 /* PBXTargetDependency */,
+			);
+			name = FoodomiaUITests;
+			productName = FoodomiaUITests;
+			productReference = AE79B6B01F72847600B64619 /* FoodomiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE79B6891F72847500B64619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = dinosoftlabs;
+				TargetAttributes = {
+					AE79B6901F72847500B64619 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AE79B6A41F72847600B64619 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE79B6901F72847500B64619;
+					};
+					AE79B6AF1F72847600B64619 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AE79B6901F72847500B64619;
+					};
+				};
+			};
+			buildConfigurationList = AE79B68C1F72847500B64619 /* Build configuration list for PBXProject "Foodies" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE79B6881F72847500B64619;
+			productRefGroup = AE79B6921F72847500B64619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE79B6901F72847500B64619 /* Foodomia */,
+				AE79B6A41F72847600B64619 /* FoodomiaTests */,
+				AE79B6AF1F72847600B64619 /* FoodomiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE79B68F1F72847500B64619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0D411A206CCC4600C469E2 /* banff_no.ttf in Resources */,
+				AE79B69F1F72847500B64619 /* LaunchScreen.storyboard in Resources */,
+				AE18A6821FE6B7D3008A04F3 /* StoryboardiPad.storyboard in Resources */,
+				AEEF5FC222395E1B003F2D77 /* Splash.jpg in Resources */,
+				AE79B69C1F72847500B64619 /* Assets.xcassets in Resources */,
+				AE79B69A1F72847500B64619 /* Main.storyboard in Resources */,
+				1188FE3C234E709B00702F2F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79B6A31F72847600B64619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79B6AE1F72847600B64619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1285E4CE5B6CFB53FF4BCFB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Foodomia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22CFBFB29DBE96A80001830A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodomia/Pods-Foodomia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GooglePlacesSearchController/GooglePlacesSearchController.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GooglePlacesSearchController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PusherSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodomia/Pods-Foodomia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		376AEE45A162157F9FE2AB9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodomiaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD4A5DC6970C21B98AE74C3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Foodomia/Pods-Foodomia-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Foodomia/Pods-Foodomia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE57FDED6D28002F2918AAE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodomiaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE79B68D1F72847500B64619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2A447F1F90C62B00EAA8D4 /* CardDetail.swift in Sources */,
+				AEE87CD11F7E1AC700B91D5A /* MyAccount1ViewController.swift in Sources */,
+				AECAB48C1F7A38F6004F21CE /* AddCartViewController.swift in Sources */,
+				AE7CC6011F739777005B6B20 /* SignUpViewController.swift in Sources */,
+				AE4BF17B204E56BF005755A6 /* AddScheduleTableCell.swift in Sources */,
+				AE1F3FDD2097545B00C6C3A6 /* RiderSide.swift in Sources */,
+				AEC5B6701F7D0C4D00587A7F /* DetailCartViewController.swift in Sources */,
+				AE3C1D1F1F8616D800AF1AE9 /* YourLocationViewController.swift in Sources */,
+				AEB3B0DD1FA44C4E0040E52D /* CardDetail2TableCell.swift in Sources */,
+				AECAB48A1F7A275B004F21CE /* ReviewTableViewCell.swift in Sources */,
+				AEB3F8191FB08ABA00842129 /* ScheduleTableViewCell.swift in Sources */,
+				AE064AD81FB5954000C8B28B /* TrackOrderViewController.swift in Sources */,
+				AE0448FA20344D8600B6C5F1 /* HotelHistoryVC.swift in Sources */,
+				AE49F9C51FA83C53004A5F5F /* Loader.swift in Sources */,
+				AE8B1B2A1FB18E7E00703AF0 /* RiderTiming.swift in Sources */,
+				AE8D993A1FEA2DC20009EC4E /* RestaurantDealViewController.swift in Sources */,
+				AEDAEC4E1F988D5200BA2C52 /* Review.swift in Sources */,
+				AE440E591FBC57B60048693B /* OrderUpperCellTableViewCell.swift in Sources */,
+				AE226F811F78E6F500AA10AF /* RestuarntsViewController.swift in Sources */,
+				AE3643832001388A007B4D76 /* PickSpecialityViewController.swift in Sources */,
+				AE01252C1F9735E5009E617F /* AddAddressPresent.swift in Sources */,
+				AE7BA0062098758F00861D0D /* TodayJobCell.swift in Sources */,
+				AEA8E95E1F7CB80600D68E7D /* Address1TableViewCell.swift in Sources */,
+				AEFDD6FF1FF4FF4C00ED1C2C /* HotelProfileVC.swift in Sources */,
+				AE8447531F9E036C00FA74D9 /* 3rdTableViewCell.swift in Sources */,
+				AEFE18CE1FCEC34C00F7AFFF /* Account1ViewController.swift in Sources */,
+				AEF2BFF61FD800E8008CE293 /* DealTableViewCell.swift in Sources */,
+				AE222F48200CD7F9005421B0 /* Constants.swift in Sources */,
+				AE149C151FC516B700CAFBAD /* TrackTableViewCell.swift in Sources */,
+				AE78182B1FA9E93C000DA313 /* DeliverViewController.swift in Sources */,
+				AE17FB5F1FC83933004F6587 /* DealsViewController.swift in Sources */,
+				AE79D1B51FA09987003D3D65 /* CardDetailTableViewCell.swift in Sources */,
+				AEDAEC521F98BCB600BA2C52 /* OrderExtra.swift in Sources */,
+				AEA8B3481F7382580091D372 /* LogInViewController.swift in Sources */,
+				AEF832F21FC9794C007F2705 /* FavViewController.swift in Sources */,
+				AEF863AC1F8CF00E00880BF7 /* StaticData.swift in Sources */,
+				AE36BCBD1FF4D8A500DAD5A7 /* HotelRestaurantsVC.swift in Sources */,
+				AEF201DB1F9761A0003ABBAF /* Menu.swift in Sources */,
+				AEDAEC501F98BB0700BA2C52 /* Order.swift in Sources */,
+				AE1BC2A71F85099300AF6933 /* Jobs1ViewController.swift in Sources */,
+				AE8D993C1FEA33EB0009EC4E /* RestaurantDetailDealViewController.swift in Sources */,
+				AE7818281FA9A84E000DA313 /* MenuItem.swift in Sources */,
+				AEE87CCF1F7E1A5E00B91D5A /* MyAccountViewController.swift in Sources */,
+				AEE87CD31F7E1ADA00B91D5A /* EditAccountViewController.swift in Sources */,
+				AEFDD6FD1FF4F50800ED1C2C /* HotelDetailRestaurantsVC.swift in Sources */,
+				AE7CC6051F73BF12005B6B20 /* PickCountryViewController.swift in Sources */,
+				AE01E41C1F7D2A9E00322EAC /* HistoryTableViewCell.swift in Sources */,
+				AED1D9F71FB0470A0097C1B2 /* JobTimeViewController.swift in Sources */,
+				AEA8E95C1F7CB7F400D68E7D /* AddressTableViewCell.swift in Sources */,
+				AE01E41E1F7D362D00322EAC /* AddAdressViewController.swift in Sources */,
+				AE226F871F79058900AA10AF /* OrdersViewController.swift in Sources */,
+				AE226F851F78F1D400AA10AF /* RTableViewCell.swift in Sources */,
+				AE64E90B1F95E2BB007CA0D9 /* Address.swift in Sources */,
+				AE0C9EB21FE5046500388E55 /* DealCartViewController.swift in Sources */,
+				AE27C0EF1F8642560050392C /* TrackLocationViewController.swift in Sources */,
+				AE08EEFA1FE7BC4A004CB727 /* Mulk.swift in Sources */,
+				AE485C7F1F99E08000CC2AAA /* RiderProfileViewController.swift in Sources */,
+				AEB96E5C2062718D00A4CB04 /* TrackConstant.swift in Sources */,
+				AE70975C1FC4404B00EECFCE /* InsViewCell.swift in Sources */,
+				AEA06BF81FB45A6500823A8A /* Cart.swift in Sources */,
+				AE8B1B2C1FB1A67200703AF0 /* AddScheduleViewController.swift in Sources */,
+				AECE30161FC2AB1D00B827E3 /* Sectionlist.swift in Sources */,
+				AE4558BD1F96156300DB6662 /* Restuarant.swift in Sources */,
+				AE64E9091F95D49E007CA0D9 /* ChangePasswordViewController.swift in Sources */,
+				AE48505F1FA8812C00590BE6 /* riderTableViewCell.swift in Sources */,
+				AEB8C4AC1F792031002300A4 /* OrderTableViewCell.swift in Sources */,
+				AECAB4881F7A26AB004F21CE /* ReviewsViewController.swift in Sources */,
+				AEF2BFF81FD811B1008CE293 /* DealDetailViewController.swift in Sources */,
+				AE1BC2A51F84F14A00AF6933 /* AddPaymentMethodViewController.swift in Sources */,
+				AE4850611FA8814900590BE6 /* AcceptTableViewCell.swift in Sources */,
+				AE01252A1F973392009E617F /* SelectAddressPresent.swift in Sources */,
+				AE46089F1F7B6DD300F8D1BB /* PaymentMethodViewController.swift in Sources */,
+				AE1752F320034B9B00A474D8 /* AddReasonViewController.swift in Sources */,
+				AEB3F8171FB076BD00842129 /* RiderScheduleViewController.swift in Sources */,
+				AEF2BFF21FD7FB2B008CE293 /* Deal.swift in Sources */,
+				AE17DD6720821FE500CA8BC5 /* HotelSide.swift in Sources */,
+				AEA8E95A1F7CB77E00D68E7D /* SelectAddressViewController.swift in Sources */,
+				AE4E6D7F1F73EBA300D0336C /* ConfirmViewController.swift in Sources */,
+				AE17DD6920822C2D00CA8BC5 /* MyCell.swift in Sources */,
+				AEA340BC1FAB29040047426E /* Cart1TableViewCell.swift in Sources */,
+				AE1BC2A91F850F8200AF6933 /* jobs2ViewController.swift in Sources */,
+				AEE2A37B1FD91B5600A2FC1A /* CheckInViewController.swift in Sources */,
+				AEB57B2B1F7BBCCB00B7CD80 /* CountryTableViewCell.swift in Sources */,
+				AE0125261F972AC4009E617F /* PaymentMethodPresent.swift in Sources */,
+				AE8C20FB1F9EFF4100AA86D8 /* CartTableViewCell.swift in Sources */,
+				AEC5B66E1F7CF1AB00587A7F /* ForgotPasswordViewController.swift in Sources */,
+				AE78182D1FA9E94E000DA313 /* CollectViewController.swift in Sources */,
+				AE0B93752024711600FC3D8A /* RiderReviewViewController.swift in Sources */,
+				AE4BF17D204E9E70005755A6 /* GetMapLocationViewController.swift in Sources */,
+				AE0125281F973002009E617F /* AddPaymentPresent.swift in Sources */,
+				AE4850631FA88A3000590BE6 /* Riderorder.swift in Sources */,
+				AE01E41A1F7D294C00322EAC /* OrderHistoryViewController.swift in Sources */,
+				AE4608A11F7B70CF00F8D1BB /* PaymentTableCell.swift in Sources */,
+				AE7CC6031F73A5A7005B6B20 /* VerificationViewController.swift in Sources */,
+				AE064AD41FB5847C00C8B28B /* PagerTableViewCell.swift in Sources */,
+				AE79B6951F72847500B64619 /* AppDelegate.swift in Sources */,
+				AE0694FD1F851C51007C3582 /* ChatViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79B6A11F72847600B64619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE79B6AA1F72847600B64619 /* FoodomiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE79B6AC1F72847600B64619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE79B6B51F72847600B64619 /* FoodomiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE79B6A71F72847600B64619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE79B6901F72847500B64619 /* Foodomia */;
+			targetProxy = AE79B6A61F72847600B64619 /* PBXContainerItemProxy */;
+		};
+		AE79B6B21F72847600B64619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE79B6901F72847500B64619 /* Foodomia */;
+			targetProxy = AE79B6B11F72847600B64619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE79B6981F72847500B64619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE79B6991F72847500B64619 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE79B69D1F72847500B64619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE79B69E1F72847500B64619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE79B6B71F72847600B64619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE79B6B81F72847600B64619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE79B6BA1F72847600B64619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6F0EE1643B9973FD2B8459E /* Pods-Foodomia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Foodomia/Foodomia.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99QAZBHL2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				INFOPLIST_FILE = Foodomia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinosoftlabs.foodies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mohammad/Downloads/restaurant-food-delivery-ordering-system iOS/MobileApp Source Code/Foodies/Foodomia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE79B6BB1F72847600B64619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85FE41F949D7B75D420DEAB5 /* Pods-Foodomia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Foodomia/Foodomia.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G99QAZBHL2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+				);
+				INFOPLIST_FILE = Foodomia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dinosoftlabs.foodies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/mohammad/Downloads/restaurant-food-delivery-ordering-system iOS/MobileApp Source Code/Foodies/Foodomia-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE79B6BD1F72847600B64619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13F48C415E559B57AB95449A /* Pods-FoodomiaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96HXUQZ5HH;
+				INFOPLIST_FILE = FoodomiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dinosoftlabs.FoodomiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodomia.app/Foodomia";
+			};
+			name = Debug;
+		};
+		AE79B6BE1F72847600B64619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE4853B6C8BF6230B506435 /* Pods-FoodomiaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96HXUQZ5HH;
+				INFOPLIST_FILE = FoodomiaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dinosoftlabs.FoodomiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foodomia.app/Foodomia";
+			};
+			name = Release;
+		};
+		AE79B6C01F72847600B64619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585B9E88411479753FDDDF19 /* Pods-FoodomiaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96HXUQZ5HH;
+				INFOPLIST_FILE = FoodomiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dinosoftlabs.FoodomiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foodomia;
+			};
+			name = Debug;
+		};
+		AE79B6C11F72847600B64619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A32BCF00C59623C4EA0198EF /* Pods-FoodomiaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96HXUQZ5HH;
+				INFOPLIST_FILE = FoodomiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dinosoftlabs.FoodomiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Foodomia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE79B68C1F72847500B64619 /* Build configuration list for PBXProject "Foodies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE79B6B71F72847600B64619 /* Debug */,
+				AE79B6B81F72847600B64619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE79B6B91F72847600B64619 /* Build configuration list for PBXNativeTarget "Foodomia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE79B6BA1F72847600B64619 /* Debug */,
+				AE79B6BB1F72847600B64619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE79B6BC1F72847600B64619 /* Build configuration list for PBXNativeTarget "FoodomiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE79B6BD1F72847600B64619 /* Debug */,
+				AE79B6BE1F72847600B64619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE79B6BF1F72847600B64619 /* Build configuration list for PBXNativeTarget "FoodomiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE79B6C01F72847600B64619 /* Debug */,
+				AE79B6C11F72847600B64619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE79B6891F72847500B64619 /* Project object */;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13241" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Extras" representedClassName="Extras" syncable="YES" codeGenerationType="class">
+        <attribute name="ename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eprice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="equantity" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Menues" representedClassName="Menues" syncable="YES" codeGenerationType="class">
+        <attribute name="mname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mprice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mquantity" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="rest_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Menues" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Extras" positionX="-54" positionY="0" width="128" height="90"/>
+        <element name="Users" positionX="-36" positionY="36" width="128" height="60"/>
+    </elements>
+</model>
