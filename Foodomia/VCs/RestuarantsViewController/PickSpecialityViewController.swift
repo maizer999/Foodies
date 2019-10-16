@@ -201,6 +201,14 @@ DispatchQueue.main.asyncAfter(deadline: .now()+1) {
             
         }
         
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let newViewController = storyBoard.instantiateViewController(withIdentifier: "RestuarntsViewController") as! RestuarntsViewController
+//        self.present(newViewController, animated: false, completion: nil)
+        
+        self.navigationController?.pushViewController(newViewController, animated: true)
+        
+        
+        
         self.dismiss(animated: true, completion: nil)
         
     }
